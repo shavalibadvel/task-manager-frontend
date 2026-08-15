@@ -19,10 +19,10 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [dialog, setDialog] = useState({ open: false, task: null });
 
-  // Every mutation just refetches — simple and always correct.jhjgjbenwqrlewgrehfjekwidfhughj
+  // Every mutation just refetches — simple and always correct.jhjgjbenwqrlewgrehfjekwidfhughj4yuhrt3gyrh
   const loadTasks = async () => {
     setLoading(true);
-    try {
+   try {
       setTasks(await taskService.getTasks());
     } catch (err) {
       console.error(err);
